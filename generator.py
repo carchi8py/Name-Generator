@@ -21,5 +21,6 @@ def generator(input_letter):
         out_letter = letter_input_1
     return out_letter
 
-name = generator(letter_input_1) + generator(letter_input_2) + generator(letter_input_3)
-print name
+for i in range(10):
+    name = generator(letter_input_1) + generator(letter_input_2) + generator(letter_input_3)
+    print name
